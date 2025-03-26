@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/contact.css">
+  <title>Contact Us - Hotel Template</title>
+ 
+</head>
+<body>
+  <nav class="navbar">
+    <a class="navbar-brand" href="index.html">Hotel Template</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon">☰</span>
+    </button>
+    <ul class="nav-links">
+      <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+      <li class="nav-item"><a class="nav-link" href="rooms.html">Rooms</a></li>
+      <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+      <li class="nav-item"><a class="btn btn-primary" href="contact.html">Book a Room</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container text-center">
+      <h1>About Hotel Template</h1>
+      <p>A story woven into every stay.</p>
+    </div>
+  </section>
+
+  <!-- Detailed About Section -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <h2 class="text-center">Our Journey</h2>
+      <p class="text-center">Hotel Template began as a dream to craft spaces where travelers don’t just rest—they rediscover. From our first brick to today, we’ve built a haven that blends curiosity with comfort, rooted in a love for the unexpected.</p>
+      
+      <!-- History -->
+      <div class="about-content">
+        <h3>Our History</h3>
+        <p>Founded in 2010, we started with a single room—a prototype of what a stay could be. Over the years, we’ve grown, but our core remains: every guest is part of our story.</p>
+      </div>
+
+      <!-- Mission -->
+      <div class="about-content">
+        <h3>Our Mission</h3>
+        <p>To inspire wanderers with spaces that feel like home, yet spark adventure. We’re here to turn moments into memories.</p>
+      </div>
+
+      <!-- Team -->
+      <div class="about-team">
+        <h3>Meet Our Team</h3>
+        <div class="team-grid">
+          <div class="team-member">
+            <img src="images/th.jpeg" alt="Team Member 1">
+            <h4>Jane Doe</h4>
+            <p>Founder & Visionary</p>
+          </div>
+          <div class="team-member">
+            <img src="images/th (1).jpeg" alt="Team Member 2">
+            <h4>John Smith</h4>
+            <p>Head of Design</p>
+          </div>
+          <div class="team-member">
+            <img src="images/th (2).jpeg" alt="Team Member 3">
+            <h4>Emily Lee</h4>
+            <p>Guest Experience Lead</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p>We'd love to hear from you! Please fill out the form below to get in touch with us.</p>
+      <div class="contact-form">
+        <form action="submit_form.php" method="post">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="btn-submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Map Section -->
+  <section class="map-section">
+    <div class="container">
+      <h2>Find Us Here</h2>
+      <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.086509486211!2d144.9630579153168!3d-37.81410797975171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d1d7a2b0b1b!2sFederation%20Square!5e0!3m2!1sen!2sau!4v1614072921234!5m2!1sen!2sau" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Enhanced Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Contact Info -->
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+          <p>123 Haven Lane, Serenity City</p>
+          <p>Email: info@hoteltemplate.com</p>
+          <p>Phone: (555) 123-4567</p>
+        </div>
+        <!-- Quick Links -->
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="index.html#rooms">Rooms</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <li><a href="index.html#booking">Book a Room</a></li>
+            <li><a href="#privacy">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <!-- Newsletter -->
+        <div class="footer-section">
+          <h3>Stay Updated</h3>
+          <p>Join our newsletter for exclusive offers.</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Your Email" required>
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <!-- Social Media -->
+      <div class="social-links">
+        <a href="#" class="social-icon">Facebook</a>
+        <a href="#" class="social-icon">Twitter</a>
+        <a href="#" class="social-icon">Instagram</a>
+      </div>
+      <!-- Copyright -->
+      <p class="footer-bottom">© 2025 Hotel Template. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
